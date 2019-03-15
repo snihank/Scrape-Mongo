@@ -1,0 +1,30 @@
+{
+  "name": "Scrape-Mongo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "nodemon": "node_modules/nodemon/bin/nodemon.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snihank/Scrape-Mongo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/snihank/Scrape-Mongo/issues"
+  },
+  "homepage": "https://github.com/snihank/Scrape-Mongo#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^5.4.14",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.10"
+  }
+}
